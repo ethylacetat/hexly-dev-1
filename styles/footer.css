@@ -1,0 +1,163 @@
+@import 'colors.css';
+
+.footer {
+    margin-top: 208px;
+    background-color: var(--main-ocher);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+    padding-left: 25px;
+    padding-right: 60px;
+}
+
+.footer-subscribe-title {
+    color: var(--logo-color);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 16.8px;
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-left: 50px;
+}
+
+.footer-subscribe-sitemap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.footer-subscribe-sitemap li {
+    color: var(--main-black);
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+}
+
+.footer-subscribe-sitemap>ul>li:first-child {
+    font-weight: 700;
+}
+
+/* Для первого списка выбирает все элементы, начиная со второго */
+.footer-subscribe-sitemap>ul:nth-child(1)>li:nth-child(n + 2) {
+    margin-top: 25px;
+}
+
+/* Для второго списка выбирает все элементы, начиная со второго */
+.footer-subscribe-sitemap>ul:nth-child(2)>li:nth-child(n + 2) {
+    margin-top: 25px;
+}
+
+/* Для третьего списка выбирает все элементы, начиная со второго */
+.footer-subscribe-sitemap>ul:nth-child(3)>li:nth-child(n + 2) {
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-subscribe-sitemap a {
+    text-decoration: none;
+    color: var(--main-black);
+}
+
+.footer-subscribe-form-wrapper {
+    margin-right: 35px;
+    position: relative;
+}
+
+.footer-subscribe-input-email {
+    width: 320px;
+    height: 100px;
+    border-radius: 30px;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--main-black);
+    color: var(--main-white);
+    border: none;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 70px;
+}
+
+.footer-subscribe-input-email::placeholder {
+    color: var(--main-white);
+}
+
+.footer-subscribe-input-email:focus {
+    outline: none;
+}
+
+.footer-subscribe-input-submit {
+    border: none;
+    box-sizing: border-box;
+    width: 180px;
+    height: 100px;
+    border-radius: 30px;
+    background: #F965FC;
+    position: absolute;
+    left: 260px;
+    cursor: pointer;
+    color: var(--main-white);
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.footer-hr {
+    width: 95%;
+    height: 3px;
+    background-color: var(--main-black);
+    border: none;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 40px 15px 40px;
+}
+
+
+.footer-links>p {
+    color: var(--main-black);
+    font-family: Jost;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-logos {
+    display: flex;
+    gap: 80px;
+}
+
+.footer-img {
+    width: 40px;
+    height: 40px;
+}

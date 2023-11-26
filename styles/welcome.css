@@ -1,0 +1,63 @@
+@import 'color.css';
+
+.welcome {
+    margin-top: 200px;
+    margin-left: 80px;
+    display: flex;
+    gap: 79px;
+}
+
+.welcome-title {
+    color: var(--main-blue);
+    color: #2000E7;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.welcome-subtitle {
+    color: var(--main-blue);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+    width: 450px;
+}
+
+.welcome-subtitle>span {
+    color: #F2BD00;
+}
+
+.welcome-text {
+    color: #383838;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    width: 616px;
+}
+
+.welcome-buttons-conteiner {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 79px;
+}
+
+.welcome-photo {
+    width: 564px;
+    height: 564px;
+    border-radius: 0px 0px 0px 191px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.50);
+    object-fit: cover;
+    margin-top: 22px;
+    display: block;
+}

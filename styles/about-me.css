@@ -1,0 +1,43 @@
+@import 'colors.css';
+
+.about-me {
+    display: flex;
+    gap: 79px;
+    align-items: center;
+    margin-left: 46px;
+    margin-top: 147px;
+}
+
+.about-me-title {
+    color: var(--main-blue);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 16.8px;
+}
+
+.about-me-text {
+    color: var(--main-black);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 415px;
+    height: 303px;
+    margin-top: 14px;
+}
+
+.about-me-text+button {
+    margin-top: 26px;
+}
+
+.about-me-img {
+    width: 925px;
+    height: 925px;
+    flex-shrink: 0;
+    object-fit: cover;
+    display: block;
+}

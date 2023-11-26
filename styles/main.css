@@ -1,0 +1,12 @@
+@import 'common.css';
+@import 'navigation.css';
+@import 'welcome.css';
+@import 'about-me.css';
+@import 'my-projects.css';
+@import 'contact-me.css';
+@import 'footer.css';
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}

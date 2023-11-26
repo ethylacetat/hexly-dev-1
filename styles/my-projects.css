@@ -1,0 +1,48 @@
+@import 'colors.css';
+
+.my-projects {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    height: 910px;
+    background-color: var(--main-ocher);
+    margin-top: 301px;
+}
+
+.my-project-title {
+    font-size: 48px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 9.6px;
+    margin-top: 35px;
+}
+
+.my-project-subtitle {
+    color: var(--main-black);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.my-projects-portfolio {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 180px;
+}
+
+.my-projects-img {
+    width: 246px;
+    height: 180px;
+    flex-shrink: 0;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+    image-rendering: auto;
+}

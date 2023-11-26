@@ -1,0 +1,44 @@
+@import 'color.css';
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 130px;
+}
+
+.navigation-title {
+    color: var(--logo-color);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navigation-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 79px;
+}
+
+.navigation-item {
+    list-style: none;
+}
+
+.navigation-item>a {
+    color: var(--footer-gray);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.navigation-item>a:hover {
+    text-decoration: underline;
+}
