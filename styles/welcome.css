@@ -1,7 +1,7 @@
-@import 'color.css';
+@import 'colors.css';
 
 .welcome {
-    margin-top: 200px;
+    margin-top: 142px;
     margin-left: 80px;
     display: flex;
     gap: 79px;
@@ -9,7 +9,6 @@
 
 .welcome-title {
     color: var(--main-blue);
-    color: #2000E7;
     font-family: Poppins;
     font-size: 30px;
     font-style: normal;
